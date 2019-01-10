@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 170px;
+} 
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px double goldenrod;
+    background-color: rgba(196, 168, 241, 0.794);
+    height: 400px;
+    width: 400px;
+
+    margin-left: 50px;
+}
+
+.heading {
+    align-self: center;
+    margin-top: -34px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+
+    margin-top: 25px;
+    margin-left: 97px;
+}
+
+.fas {
+    display: flex;
+    align-self: center;
+
+    margin-top: 37px;
+}
+
+#rollDice {
+    font-size: 50px;
+    color: goldenrod;
+
+    visibility: visible;
+}
+
+#rollDice2 {
+    font-size: 50px;
+    color: goldenrod;
+
+    visibility: visible;
+}
